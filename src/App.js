@@ -3,12 +3,13 @@ import './App.css';
 import { BrowserRouter, Link } from 'react-router-dom';
 import AppRoutes from './AppRoutes';
 
+
 function Header() {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">Turismo</Link>
+          <Link className="navbar-brand" to="/">Turismos</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -30,14 +31,38 @@ function Header() {
   );
 }
 
+function Header2() {
+  return (
+    <>
+      <header>
+        <nav>
+          <Link to="/"><img src={process.env.PUBLIC_URL + '/logo192.png'} alt="Home" /></Link>
+          <ul>
+            <li><Link to="/user">Usuario</Link></li>
+            <li><Link to="/x">Outro Qualquer</Link></li>
+            <li class="search">
+              <a href="#"> <i class="fa-solid fa-magnifying-glass"></i> </a></li>
+            <li class="hamburguer">
+              <a href="#"> <div class="bar"></div> </a></li>
+          </ul>
+        </nav>
+      </header>
+    </>
+  )
+}
+
 export default function App() {
-
-
   return (
     <>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+
       <BrowserRouter>
-        <Header/>
+        <Header2/>
         <AppRoutes/>
       </BrowserRouter>
 
