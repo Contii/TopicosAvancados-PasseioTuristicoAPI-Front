@@ -20,7 +20,6 @@ export default function App() {
       <BrowserRouter>
         <body>
         <Header/>
-        <Home/>
         <AppRoutes/>
         <Footer/>
         </body>
