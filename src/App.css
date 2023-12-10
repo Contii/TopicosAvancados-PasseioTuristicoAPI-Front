@@ -224,9 +224,7 @@ nav .content .links li label:hover{
   }
 }
 /* Responsive */
-
 /* Header End */
-
 
 /* Home Section Start */
 .home{
@@ -243,12 +241,17 @@ nav .content .links li label:hover{
 }
 .main-text h3{
   font-size: 50px;
-  color: #f4f5fb;
-  text-shadow: 0px 0px 1px black;
+  color: #ffffff;
+  text-shadow: 2px 2px 1px black;
+}
+.main-text h4{
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 2px 2px 1px black;
 }
 .home .main-text p{
-  color: #f4f5fb;
-  margin-top: 5px;
+  color: #99999e;
+  margin-top: 9px;
 }
 #home-btn{
   margin-top: 20px;
@@ -289,7 +292,6 @@ nav .content .links li label:hover{
   }
 }
 /* Home Section End */
-
 
 /* Services Section Start */
 .services{
@@ -339,8 +341,6 @@ nav .content .links li label:hover{
   }
 }
 /* Services Section End */
-
-
 
 /* About Section Start */
 .about{
@@ -402,28 +402,24 @@ nav .content .links li label:hover{
 }
 /* About Section End */
 
-
-
-
-
-/* Gallary Section Start */
-.gallary{
+/* Gallery Section Start */
+.gallery{
   padding: 120px 10% 120px;
 }
-.gallary .heading h3{
+.gallery .heading h3{
   font-size: 25px;
   letter-spacing: 2px;
   color: #f4f5fb;
   border-bottom: 2px solid #1c0a51;
 }
-.gallary-card{
+.gallery-card{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, auto));
   align-items: center;
   gap: 0.90rem;
   margin-top: 30px;
 }
-.gallary-card .row img{
+.gallery-card .row img{
   width: 200px;
   padding: 10px;
   display: block;
@@ -431,19 +427,15 @@ nav .content .links li label:hover{
   transition: 0.5s;
   cursor: pointer;
 }
-.gallary-card .row img:hover{
+.gallery-card .row img:hover{
   transform: translateY(-10px);
 }
 @media (max-width:920px){
-  .gallary-card{
+  .gallery-card{
       grid-template-columns: 1fr;
   }
 }
-/* Gallary Section End */
-
-
-
-
+/* Gallery Section End */
 
 /* Packages Section Start */
 .packages{
@@ -526,10 +518,6 @@ nav .content .links li label:hover{
 }
 /* Packages Section End */
 
-
-
-
-
 /* Book Section Start */
 .book{
   display: grid;
@@ -591,10 +579,6 @@ form textarea{
 }
 /* Book Section End */
 
-
-
-
-
 /* Review Section Start */
 .reviews{
   padding: 120px 10% 120px;
@@ -642,10 +626,6 @@ form textarea{
   }
 }
 /* Review Section End */
-
-
-
-
 
 /* Contact Section Start */
 .contact{
@@ -722,10 +702,6 @@ form textarea{
   }
 }
 /* Contact Section End */
-
-
-
-
 
 /* Footer Start */
 #footer {

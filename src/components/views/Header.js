@@ -12,22 +12,22 @@ export default function Header() {
 
         <div className="content">
           <div className="logo">
-            <a href="index.html">
+            <a href="/">
               <img src="./logo.png" alt="" />
             </a>
           </div>
           <ul className="links">
             <li>
-              <a href="index.html">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#services">Minha Conta</a>
+              <a href="/user-account">Minha Conta</a>
             </li>
             <li>
-              <a href="#about">Pacotes</a>
+              <a href="/pacotes">Pacotes</a>
             </li>
             <li>
-              <a href="#packages">Passeios</a>
+              <a href="/passeios">Passeios</a>
             </li>
           </ul>
         </div>
