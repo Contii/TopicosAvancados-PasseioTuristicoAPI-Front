@@ -506,6 +506,8 @@ nav .content .links li label:hover{
   border: 2px solid #1c0a51;
   transition: 0.5s ease;
   cursor: pointer;
+  font-size: 18px;
+
 }
 .packages .card-body button:hover{
   background: #1c0a51;

@@ -9,6 +9,9 @@ import Tours from "./components/views/Tours";
 import Services from "./components/views/Services";
 import About from "./components/views/About";
 import Gallery from "./components/views/Gallery";
+import Book from "./components/views/Book";
+import Reviews from "./components/views/Reviews";
+import Contact from "./components/views/Contact";
 
 const AppRoutes = () => {
     return (
@@ -20,7 +23,10 @@ const AppRoutes = () => {
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
             <Route path="/gallery" element={<Gallery />} />
-            
+            <Route path="/book" element={<Book />} />
+            <Route path="/reviews" element={<Reviews />} />
+            <Route path="/contact" element={<Contact />} />
+
 
             <Route path="/user" element={<UserList />} />
             <Route path="/user/new" element={<UserForm />} />
